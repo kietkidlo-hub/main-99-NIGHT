@@ -14522,7 +14522,7 @@ end
 
 aw.UIElements.Main.Visible=false
 
-if aw.OpenButtonMain and not aw.Destroyed and not aw.IsPC and aw.IsOpenButtonEnabled then
+if aw.OpenButtonMain and not aw.Destroyed and aw.IsOpenButtonEnabled then
 aw.OpenButtonMain:Visible(true)
 end
 end)
@@ -15671,18 +15671,6 @@ aa.Window=h
 if aA.Acrylic then
 au.init()
 end
-
-
-
-
-
-
-
-
-
-
-
-
 
 return h
 end
